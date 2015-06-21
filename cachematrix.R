@@ -1,6 +1,3 @@
-<<<<<<< Updated upstream
- get <- function() x
-=======
 ## Put comments here that give an overall description of what your
 ## functions do
 
@@ -17,7 +14,6 @@ makeCacheMatrix <- function(x = matrix()) {
             solvex <<- NULL
       }
       get <- function() x
->>>>>>> Stashed changes
       setsolve <- function(solve) solvex <<- solve
       getsolve <- function() solvex
       list(set = set,get = get, setsolve = setsolve,getsolve = getsolve)
